@@ -27,5 +27,7 @@ int main()
     int sum1 = addNumbers(123, 321);
     std::cout << "Adding the numbers 123 and 321 : " << sum1 << std::endl;
 
+    std::cout << "Sum : " << addNumbers(3, 43) << std::endl;
+
     return 0;
 }
